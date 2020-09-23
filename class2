@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace oop1
+{
+    class Class2
+    {
+        public int no1, no2;
+        public void message()
+        {
+            Console.WriteLine("Hello my friends");
+        }
+
+        public void add(int a, int b)
+        {
+            int result = a + b;
+            Console.WriteLine("The results of the addition is: " + result);
+        }
+
+        public void salarySlip(int salary)
+        {
+            float tax, net;
+            if (salary >= 3000)
+            {
+                tax = salary * 20 / 100;
+            }
+
+            else
+            {
+                tax = salary * 10 / 100;
+            }
+            
+            net = salary - tax;
+            Console.WriteLine("Your salary is: " + salary);
+            Console.WriteLine("Tax calculated is: " + tax);
+            Console.WriteLine("Net salary is: " + net);
+        }
+    }
+}

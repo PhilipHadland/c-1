@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace oop1
+{
+    class Class1
+    {
+        public int no1, no2;
+        public void message()
+        {
+            Console.WriteLine("Hello");
+            Console.WriteLine("My friends");
+        }
+    }
+}

@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace oop1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Class1 x;
+            x = new Class1();
+            x.message();
+            
+
+            Class2 y;
+            y = new Class2();
+            y.message();
+            y.add(44, 55);
+            y.add(1435, 5332);
+            y.add(4, 7643);
+            y.salarySlip(25000);
+            y.salarySlip(2500);
+
+            math z;
+            z = new math();
+            z.add(55, 66);
+            z.minus(55, 66);
+            z.multiply(55, 66);
+            z.divide(66, 55);
+
+            Console.Read();
+        }
+    }
+}

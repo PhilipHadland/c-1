@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace oop1
+{
+    class math
+    {
+        public void add(int a, int b)
+        {
+            int result = a + b;
+            Console.WriteLine("The result of " + a + " + " + b + " is " + result);
+        }
+
+        public void minus(int a, int b)
+        {
+            int result = a - b;
+            Console.WriteLine("The result of " + a + " - " + b + " is " + result);
+        }
+
+        public void multiply(int a, int b)
+        {
+            int result = a * b;
+            Console.WriteLine("The result of " + a + " * " + b + " is " + result);
+        }
+
+        public void divide(float a, float b)
+        {
+            float result = a / b;
+            Console.WriteLine("The result of " + a + " / " + b + " is " + result);
+        }
+    }
+}
